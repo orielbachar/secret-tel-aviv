@@ -8,7 +8,7 @@ nav{
   position: fixed;
   width: 100%;
   top: 0;
-
+  margin-bottom: 20px;
 }
 nav li a {
   line-height: 50px;
@@ -18,7 +18,7 @@ nav li a {
   font-size: 11px;
   text-transform: uppercase;
   font-weight: bold;
-  padding: 0 18px;
+  padding: 0px 17px;
 }
 nav li{
   display: inline-block;
@@ -42,4 +42,97 @@ nav ul{
   background: url(http://www.elevationacademy.co/wp-content/uploads/2016/02/Tel-Aviv.jpg) no-repeat center fixed;
   background-size: cover;
   height: 700px;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Open Sans';
+  text-align: center;
+  font-weight: bold;
+  padding: 40px;
+  text-transform: capitalize;
+}
+
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+section {
+  background-color: #ddd;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+}
+.food img{
+  width: 100%;
+  padding:20px;
+  height: 40%;
+}
+
+.column-inner{
+  padding:20px;
+}
+
+#food{
+  padding-top:4%;
+}
+
+
+
+
+.column-70 {
+  width: 70%;
+  float: left;
+  height: 80%;
+
+
+}
+
+.column-70 img{
+  margin:auto;
+  display:block;
+
+}
+
+.column-30 {
+  width: 30%;
+  float: left;
+  height: 80%;
+  background-color: white;
+  margin-top: 35px;
+}
+
+.row:before {
+  display: table;
+  content: "";
+}
+
+.row:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.column-30 h3{
+  font-family: Merriweather;
+}
+
+@media (max-width: 700px) {
+  .column {
+    width: 100%;
+  }
+
+  .column-30{
+    width: 100%;
+  }
+
+  .column-70 {
+      width: 100%;
+    }
 }
